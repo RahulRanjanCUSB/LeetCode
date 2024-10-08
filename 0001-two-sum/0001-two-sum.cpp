@@ -1,23 +1,22 @@
+//Approach 2: using Map
+
+// Approach 1: Aleady submitted using brute force.
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        int diff = 0;
-        vector<int> index;
-        for(int i=0; i<nums.size(); i++)
-        {
-            diff = target - nums[i];
-            for(int j=i+1; j<nums.size(); j++)
-            {
-                if(diff == nums[j])
-                {
-                    index.push_back(i);
-                    index.push_back(j);
-                }
-                    
-            } diff = 0;
-                       
-        }
-        return index;
+        int idx = 0;
+        std::unordered_map<int, int> intmap;
+        std::unordered_map<int, int>::const_iterator iter;
+        std::unordered_map<int, int>::const_iterator end = intmap.end();
         
+        for (auto num : nums) {
+            iter = intmap.find(target-num);
+            if (iter == end) {
+                intmap[num] = idx;
+                idx++;
+            }
+            else { break; }
+        }
+        return {iter->second, idx};            
     }
 };
