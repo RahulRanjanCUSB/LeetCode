@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/RahulRanjanCUSB/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/RahulRanjanCUSB/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Stack
 |  |
@@ -21,4 +22,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/RahulRanjanCUSB/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/RahulRanjanCUSB/LeetCode/tree/master/0005-longest-palindromic-substring) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/RahulRanjanCUSB/LeetCode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
